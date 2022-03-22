@@ -1,0 +1,7 @@
+<div class="tasksList">
+  <div *ngFor="let task of (tasks$ | async) let index = index" class="tasks">
+    <li> {{task}} </li>
+    <button class="buttonComplete" (click)="completeTask(index)">Comp</button>
+    <button class="buttonDelete" (click)="deleteTask(index)">Del</button>
+  </div>
+</div>

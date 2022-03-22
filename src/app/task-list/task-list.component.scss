@@ -1,0 +1,28 @@
+li {
+  list-style: none;
+}
+
+.tasksList {
+  display: flex;
+  flex-direction: column;
+}
+
+.tasks {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.buttonComplete {
+  color: white;
+  background-color: #57bb5b;
+  border-radius: 2px;
+  border: none;
+}
+
+.buttonDelete {
+  color: white;
+  background-color: #d6544b;
+  border-radius: 2px;
+  border: none;
+}
